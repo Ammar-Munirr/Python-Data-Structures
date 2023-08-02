@@ -21,3 +21,11 @@ print(temp_list)
 
 list_p.insert(1,234)
 print(list_p)
+
+#python list have also very popular method name pop(), which remove the last element when we don't pass the index to it, we can also assiged the removed element to a variable let's see:
+
+removed_element = list_p.pop()
+
+print(removed_element)
+list_p.pop(0)
+print(list_p)
