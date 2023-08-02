@@ -29,3 +29,8 @@ removed_element = list_p.pop()
 print(removed_element)
 list_p.pop(0)
 print(list_p)
+
+# append() method in python list, it is used to add element in the last index of the list
+
+list_p.append(32)
+print(list_p)
