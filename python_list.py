@@ -34,3 +34,8 @@ print(list_p)
 
 list_p.append(32)
 print(list_p)
+
+#extend() method add iteratable elements to the list like adding a list items to a list:
+add = ['Hello',1,6,2,'Go']
+list_p.extend(add)
+print(list_p)
