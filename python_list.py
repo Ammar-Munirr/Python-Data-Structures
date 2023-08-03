@@ -44,3 +44,8 @@ print(list_p)
 
 list_p.remove(2) # it will only remove first element that have value 2.
 print(list_p)
+
+#clear() method in a list is used to remove all the elements in a list:
+temp_list = [12,4,2,5213,523,'Hello']
+temp_list.clear()
+print(temp_list)
