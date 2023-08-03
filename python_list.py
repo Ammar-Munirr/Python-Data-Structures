@@ -39,3 +39,8 @@ print(list_p)
 add = ['Hello',1,6,2,'Go']
 list_p.extend(add)
 print(list_p)
+
+#remove() method in a list is used to remove the first occurrence in a list like:
+
+list_p.remove(2) # it will only remove first element that have value 2.
+print(list_p)
