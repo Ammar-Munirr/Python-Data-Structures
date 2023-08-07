@@ -49,3 +49,17 @@ print(list_p)
 temp_list = [12,4,2,5213,523,'Hello']
 temp_list.clear()
 print(temp_list)
+
+#count() method will return how many times the passing value is occured:
+print(list_p.count(1))
+
+#sort() function will sort the list ASD Order and if you want it to DES order u have to pass reverse=True:
+
+temp = [32,2,1,46,12,88,4,23]
+temp.sort()
+print(temp)
+temp.sort(reverse=True)
+print(temp)
+#reverse() function will reverse the whole list:
+list_p.reverse()
+print(list_p)
